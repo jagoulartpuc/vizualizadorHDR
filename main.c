@@ -46,10 +46,18 @@ void process()
     //
     int pos;
     for(pos=0; pos<sizeX*sizeY; pos++) {
-        image8[pos].r = (unsigned char) (255 * exposure);
-        image8[pos].g = (unsigned char) (127 * exposure);
-        image8[pos].b = (unsigned char) (0 * exposure);
+        image[pos].r = image[pos].r*exposure;
+        image[pos].g = image[pos].g*exposure;
+        image[pos].b = image[pos].b*exposure;
     }
+    float c = 0.5;
+    for(pos=0; pos<sizeX*sizeY; pos++) {
+        image[pos].r = (image[pos].r/(image[pos].r + c);
+        image[pos].g = (image[pos].g/(image[pos].g + c);
+        image[pos].b = (image[pos].b/(image[pos].b + c);
+    }
+
+
 
     //
     // NÃO ALTERAR A PARTIR DAQUI!!!!
@@ -76,6 +84,36 @@ int main(int argc, char** argv)
     // 2. Ler os pixels
     //
 
+    typedef struct {
+    float r, g, b;
+    } RGBf;
+
+    // Largura e altura da imagem
+    int width, height;
+
+    // Ponteiro para o início da imagem na memória
+    RGBf* image;
+
+    // Abre o arquivo
+    FILE* arq = fopen("cathedral.hdr","rb");
+
+    // Lê o header do arquivo, de onde são extraídas a largura e altura
+    RGBE_ReadHeader(arq, &sizeX, &sizeY, NULL);
+
+    // Aloca memória para a imagem inteira
+    image = (RGBf*) malloc(sizeof(RGBf) * sizeX * sizeY);
+    printf("%i\n", sizeX);
+    printf("%i\n", sizeY);
+    // Finalmente, lê a imagem para a memória
+    int result = RGBE_ReadPixels_RLE(arq, (float*)image, sizeX, sizeY);
+    if (result == RGBE_RETURN_FAILURE) {
+   /// Tratamento de erro...
+    }
+    fclose(arq);
+
+    exposure = 1.0f;
+
+    /*
     // TESTE: cria uma imagem de 800x600
     sizeX = 800;
     sizeY = 600;
@@ -89,12 +127,11 @@ int main(int argc, char** argv)
     image8 = (RGB8*) malloc(sizeof(RGB8) * sizeX * sizeY);
 
     exposure = 1.0f; // exposição inicial
-
+    */
     // Aplica processamento inicial
+
     process();
 
     // Não retorna... a partir daqui, interação via teclado e mouse apenas, na janela gráfica
     glutMainLoop();
     return 0;
-}
-

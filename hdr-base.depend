@@ -83,3 +83,44 @@
 	<string.h>
 	<ctype.h>
 
+1541279515 source:c:\users\jose\desktop\vizualizadorhdr\main.c
+	<math.h>
+	<string.h>
+	"opengl.h"
+	"rgbe.h"
+
+1475875768 c:\users\jose\desktop\vizualizadorhdr\opengl.h
+	<windows.h>
+	"gl/glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1300999268 c:\users\jose\desktop\vizualizadorhdr\include\gl\glut.h
+	"freeglut.h"
+
+1300999268 c:\users\jose\desktop\vizualizadorhdr\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1300999268 c:\users\jose\desktop\vizualizadorhdr\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1300999268 c:\users\jose\desktop\vizualizadorhdr\include\gl\freeglut_ext.h
+
+1472597060 c:\users\jose\desktop\vizualizadorhdr\rgbe.h
+	<stdio.h>
+
+1475875804 source:c:\users\jose\desktop\vizualizadorhdr\opengl.c
+	"opengl.h"
+
+1475631894 source:c:\users\jose\desktop\vizualizadorhdr\rgbe.c
+	"rgbe.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
