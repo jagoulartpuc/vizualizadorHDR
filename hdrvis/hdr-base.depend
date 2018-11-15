@@ -1,0 +1,167 @@
+# depslib dependency file v1.0
+1475628233 source:/home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"opengl.h"
+	"rgbe.h"
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/include/GL/glut.h
+	"freeglut.h"
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/include/GL/freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/include/GL/freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/include/GL/freeglut_ext.h
+
+1472593460 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/rgbe.h
+	<stdio.h>
+
+1475628294 source:/home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/rgbe.c
+	"rgbe.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1475628249 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/opengl.h
+	<windows.h>
+	"gl/glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1475628262 source:/home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162/hdrvis/opengl.c
+	"opengl.h"
+
+1475628470 source:/home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162-jcfui298d763/hdrvis/main.c
+	<math.h>
+	<string.h>
+	"opengl.h"
+	"rgbe.h"
+
+1475628250 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162-jcfui298d763/hdrvis/opengl.h
+	<windows.h>
+	"gl/glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162-jcfui298d763/hdrvis/include/GL/glut.h
+	"freeglut.h"
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162-jcfui298d763/hdrvis/include/GL/freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162-jcfui298d763/hdrvis/include/GL/freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1300995668 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162-jcfui298d763/hdrvis/include/GL/freeglut_ext.h
+
+1472593460 /home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162-jcfui298d763/hdrvis/rgbe.h
+	<stdio.h>
+
+1475628262 source:/home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162-jcfui298d763/hdrvis/opengl.c
+	"opengl.h"
+
+1475628294 source:/home/PORTOALEGRE/10049190/git/progswb2/trab/t2-162-jcfui298d763/hdrvis/rgbe.c
+	"rgbe.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1542304045 source:c:\dev\hdrvis\main.c
+	<math.h>
+	<string.h>
+	"opengl.h"
+	"rgbe.h"
+
+1475875767 c:\dev\hdrvis\opengl.h
+	<windows.h>
+	"gl/glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1300999268 c:\dev\hdrvis\include\gl\glut.h
+	"freeglut.h"
+
+1300999268 c:\dev\hdrvis\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1300999268 c:\dev\hdrvis\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1300999268 c:\dev\hdrvis\include\gl\freeglut_ext.h
+
+1472597060 c:\dev\hdrvis\rgbe.h
+	<stdio.h>
+
+1475875804 source:c:\dev\hdrvis\opengl.c
+	"opengl.h"
+
+1475631894 source:c:\dev\hdrvis\rgbe.c
+	"rgbe.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1542304498 source:c:\users\jose\downloads\christopher e josé\hdrvis\main.c
+	<math.h>
+	<string.h>
+	"opengl.h"
+	"rgbe.h"
+
+1475879368 c:\users\jose\downloads\christopher e josé\hdrvis\opengl.h
+	<windows.h>
+	"gl/glut.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1301002868 c:\users\jose\downloads\christopher e josé\hdrvis\include\gl\glut.h
+	"freeglut.h"
+
+1301002868 c:\users\jose\downloads\christopher e josé\hdrvis\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1301002868 c:\users\jose\downloads\christopher e josé\hdrvis\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1301002868 c:\users\jose\downloads\christopher e josé\hdrvis\include\gl\freeglut_ext.h
+
+1472600660 c:\users\jose\downloads\christopher e josé\hdrvis\rgbe.h
+	<stdio.h>
+
+1475879404 source:c:\users\jose\downloads\christopher e josé\hdrvis\opengl.c
+	"opengl.h"
+
+1475635494 source:c:\users\jose\downloads\christopher e josé\hdrvis\rgbe.c
+	"rgbe.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
